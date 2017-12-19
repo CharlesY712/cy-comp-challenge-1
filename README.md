@@ -9,5 +9,5 @@ This is my static-comp:
 ![cy-comp](cy-comp-challenge1%20screenshot.png)
 
 
-This is the static-comp:
+This is the provided static-comp:
 ![turing-comp](static-comp-challenge-1.jpg)
