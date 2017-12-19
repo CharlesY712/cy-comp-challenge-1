@@ -2,6 +2,7 @@ body {
   display: flex;
   margin: 0 auto;
   color: #FFF;
+  font-size: 2vh;
 }
 
 .big-block {
@@ -17,13 +18,56 @@ body {
   flex-wrap: wrap;
 }
 
+.small {
+  text-align: center;
+}
+
+.small img {
+  max-width: 33.33%;
+  max-height: 33.33%;
+  margin-top: 25%;
+}
+
 #box1 {
   background-color: black;
 }
 
 #box2 {
   background-color: #6F263D;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 6%;
 }
+
+#official {
+  display: inline-block;
+  border: 2px solid #FFF;
+  padding: 2vh;
+  margin: 0;
+}
+
+#official img {
+  max-width: 2vh;
+  max-height: 2vh;
+  padding: 0;
+  margin: 0 1vh 0 0;
+}
+
+#wikipedia {
+  display: inline-block;
+  border: 2px solid #FFF;
+  padding: 2vh;
+  margin: 0 0 0 2vh;
+}
+
+#wikipedia img {
+  max-width: 2vh;
+  max-height: 2vh;
+  padding: 0;
+  margin: 0 1vh 0 0;
+}
+
+
 
 #box3 {
   background-color: #0F323C;
@@ -100,8 +144,6 @@ body {
   .small {
     width: 50%;
     height: 25vw;
-    text-align: center;
-    vertical-align: text-bottom;
   }
 
   #box2 {
