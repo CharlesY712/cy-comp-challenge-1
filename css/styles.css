@@ -1,3 +1,7 @@
+html {
+  background-color: black;
+}
+
 body {
   display: flex;
   margin: 0 auto;
@@ -17,6 +21,41 @@ h1 {
 
 .big {
   width: 100%;
+  position: relative;
+}
+
+#box1 {
+  background-color: black;
+}
+
+#box1 #banner {
+  width: 100%;
+  height: 100%;
+}
+
+#three-button {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  width: 12.5%
+}
+
+#left-arrow {
+  position: absolute;
+  top: 45.5%;
+  left: 3%;
+  width: 12.5%;
+  background-color: rgba(0, 0, 0, .6);
+  border-radius: 50%;
+}
+
+#right-arrow {
+  position: absolute;
+  top: 45.5%;
+  right: 3%;
+  width: 12.5%;
+  background-color: rgba(0, 0, 0, .6);
+  border-radius: 50%;
 }
 
 .small-blocks {
@@ -34,15 +73,16 @@ h1 {
   margin-top: 25%;
 }
 
-#box1 {
-  background-color: black;
-}
-
 #box2 {
   background-color: #6F263D;
   text-align: left;
   box-sizing: border-box;
-  padding: 6%;
+  padding: 6%;  
+}
+
+#box2-content {
+  box-sizing: content-box;
+  margin: 0 auto;
 }
 
 #official {
@@ -130,7 +170,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 100vh) {
+@media screen and (min-width: 108vh) {
   body {
     width: 100vw;
     flex-direction: row-reverse;
